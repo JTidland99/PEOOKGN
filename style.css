@@ -1,0 +1,44 @@
+.float{
+    box-sizing: border-box;
+}
+
+#left, #right{
+    position: fixed;
+    width: 15vw;
+    /*background-color: #84043c;*/
+    background-color: #83003f;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#left{
+    top: 0;
+    left: 0;
+}
+
+#right{
+    top: 0;
+    right: 0;
+}
+
+#form{
+    width: 100vw;
+}
+
+#ff-compose{
+    width: 68%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container{
+    display: flex;
+}
+
+#formImg{
+    width: 100vw;
+    text-align: center;
+    margin-bottom: 5vh;
+}
